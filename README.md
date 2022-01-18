@@ -37,7 +37,7 @@ Compile
 
 That is simple
 
-If you didn't know my mod menu project, please check this out: https://github.com/LGLTeam/Android-Mod-Menu/wiki#getting-started
+If you didn't know my mod menu project, please check this out: https://github.com/LGLTeam/Android-Mod-Menu/wiki
 
 # Preview
 
