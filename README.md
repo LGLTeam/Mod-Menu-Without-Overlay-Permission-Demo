@@ -5,6 +5,10 @@ Sorry to disappoint you, but this is not a full menu project, just like a demo p
 
 Thanks to DarkSide for his idea and sent me his project, but I have improved the project quite a bit
 
+Preview:
+
+![](https://i.imgur.com/avoNVXU.gif)
+
 # How to add menu
 
 For those who knew how to add menu to the game, it's the same way as the regular LGL menu, but without adding overlay permission and services
@@ -38,7 +42,3 @@ Compile
 That is simple
 
 If you didn't know my mod menu project, please check this out: https://github.com/LGLTeam/Android-Mod-Menu/
-
-# Preview
-
-![](https://i.imgur.com/avoNVXU.gif)
