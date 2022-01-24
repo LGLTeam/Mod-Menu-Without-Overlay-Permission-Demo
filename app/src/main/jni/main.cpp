@@ -12,26 +12,26 @@ extern "C" {
     const char *libName = "libil2cpp.so";
 	
     JNIEXPORT jstring JNICALL
-    Java_com_mod_Main_apk(
+    Java_com_android_support_Main_apk(
         JNIEnv *env,
         jclass activityObject) {
     jstring str = env->NewStringUTF("    Modded by Darkside");// do not earse the space this for normal text view
     return str;
 }
     JNIEXPORT jstring JNICALL
-    Java_com_mod_Main_down(
+    Java_com_android_support_Main_down(
         JNIEnv *env,
         jclass activityObject) {
     jstring str = env->NewStringUTF("Telegram:@DarkSide | YouTube:Darkside");
         return str;
     }
-    
+
 JNIEXPORT jobjectArray JNICALL
-Java_com_mod_Main_getFeatures(
+Java_com_android_support_Main_getFeatures(
         JNIEnv *env,
         jclass activityObject) {
     jobjectArray ret;
-    const char *features[] = {          
+    const char *features[] = {
 		    "Text_Text︎",//0
             "ButtonOnOff_ButtonOnOff",//1
             "Button_Button",//2
@@ -49,9 +49,9 @@ Java_com_mod_Main_getFeatures(
     for (i = 0; i < Total_Feature; i++)
         env->SetObjectArrayElement(ret, i, env->NewStringUTF(features[i]));
     return (ret);
-} 
+}
 JNIEXPORT void JNICALL
-Java_com_mod_Main_Changes(
+Java_com_android_support_Main_Changes(
         JNIEnv *env,
         jclass activityObject,
         jint feature,
@@ -62,7 +62,7 @@ Java_com_mod_Main_Changes(
 	}
 }
 JNIEXPORT jstring JNICALL
-Java_com_mod_menu_Menu_SliderString(
+Java_com_android_support_Menu_SliderString(
         JNIEnv *env,
         jobject clazz, jint feature, jint value) {
     // You must count your features from 0, not 1

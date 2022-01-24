@@ -1,7 +1,7 @@
 extern "C" {
 
 JNIEXPORT jstring JNICALL
-Java_com_mod_Main_icon(JNIEnv *env, jclass thiz) {
+Java_com_android_support_Main_icon(JNIEnv *env, jclass thiz) {
 
     //Use https://www.base64encode.org/ to encode your image to base64
     return env->NewStringUTF(
