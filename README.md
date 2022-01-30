@@ -3,7 +3,7 @@ This is a concept of floating mod menu without overlay permission. This menu wil
 
 Sorry to disappoint you, but this is not a full menu project, just like a demo project and I have not implemented a fallback yet. You could try implement yourself, and make it ask for overlay permission and run service, if it fails. Don't cry if I don't want to spoonfeed
 
-Thanks to DarkSide for his idea and sent me his project, but I have improved the project quite a bit
+Thanks to [@DarksideH](https://github.com/DarksideH) for his idea and sent me his project, but I have improved the project quite a bit
 
 Preview:
 
